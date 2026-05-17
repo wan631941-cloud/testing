@@ -1,0 +1,67 @@
+body {
+  background:linear-gradient(pink,lightblue,pink);
+  color: black;
+  font-family:Arial;
+  
+}
+
+.dark-mode {
+  background: black;
+  color: white;
+}
+
+.carousel-item img{
+	height:500px;
+	object-fit:cover:
+}
+
+.carousel-caption {
+	background:rgba(0,0,0,0.5);
+	
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon {
+	filter:invert();
+	width:5rem;
+	height:5rem;
+}
+
+.foot{
+    background-color:grey;
+	color : white ;
+	padding :2px;
+}
+
+.navbar{
+	padding:10px;
+}
+
+.card:hover{
+	transform: scale(1.05);
+}
+
+.card{
+	transition:0.3s
+}
+
+input {
+  padding: 8px;
+  width: 260px;
+  margin-bottom: 4px;
+}
+.error {
+  color: red;
+  margin: 0;
+}
+.ok {
+  color: green;
+  margin: 0;
+}
+.field {
+  margin-bottom: 12px;
+}
+
+.card-img-top {
+	height:500px;
+	object-fit:contain;
+}
